@@ -1,20 +1,47 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="UTF-8" />
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-    <meta
-      http-equiv="Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <meta
-      http-equiv="X-Content-Security-Policy"
-      content="default-src 'self'; script-src 'self'"
-    />
-    <title>Hello from Electron renderer!</title>
-  </head>
-  <body>
-    <h1>Hello from Electron renderer!</h1>
-    <p>👋</p>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'" />
+  <title>Http Request Simulator</title>
+</head>
+
+<body>
+
+  <div>Http Request Simulator</div>
+
+  <div>
+    
+    <div>
+      <h1>Collections</h1>
+      <div>
+        <h3>Collection Name</h3>
+        <ul>
+          <li>[METHOD] - Request Name</li>
+          <li>[METHOD] - Request Name</li>
+          <li>[METHOD] - Request Name</li>
+          <li>[METHOD] - Request Name</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <div>
+        <input type="text" name="" id="" placeholder="Request">
+      </div>
+      <div>
+        Body an params will be here
+      </div>
+    </div>
+
+    <div>
+      Responses will be here
+    </div>
+    
+  </div>
+
+</body>
+
 </html>
