@@ -41,3 +41,40 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.sub-title {
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+.collections-container {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	width: 30rem;
+	border: 3px black solid;
+	background-color: lightgray;
+}
+
+.collection > h3 {
+	font-size: 1.25rem;
+	text-align: center;
+}
+
+.collections-container > * {
+	padding: 1rem;
+}
+
+.collection-item {
+	margin-top: 15px;
+	margin-bottom: 15px;
+	cursor: pointer;
+	padding: 10px;
+	background-color: lightgray;
+	border-radius: 5px;
+	transition: 0.3s;
+}
+
+.collection-item:hover {
+	background-color: lightslategray;
+}
