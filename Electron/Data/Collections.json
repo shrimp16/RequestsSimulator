@@ -1,1 +1,6 @@
-
+"Collection": [
+ {
+	"Method": "GET",
+	"Url": "localhost:8080/users"
+ }
+]
