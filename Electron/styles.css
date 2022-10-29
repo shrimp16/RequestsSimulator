@@ -47,12 +47,17 @@ table {
 	text-align: center;
 }
 
+.upper-body {
+	display: flex;
+	flex-direction: row;
+}
+
 .collections-container {
 	display: flex;
 	flex-direction: column;
 	height: 100%;
 	width: 30rem;
-	border: 3px black solid;
+	border: 1px black solid;
 	background-color: lightgray;
 }
 
@@ -77,4 +82,12 @@ table {
 
 .collection-item:hover {
 	background-color: lightslategray;
+}
+
+.request-container {
+	width: 100%;
+}
+
+.request-url > input {
+	width: 80%;
 }
