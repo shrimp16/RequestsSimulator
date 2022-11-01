@@ -91,3 +91,29 @@ table {
 .request-url > input {
 	width: 80%;
 }
+
+.button {
+	height: 2rem;
+	width: 7rem;
+	border: 1px black solid;
+	border-radius: 5px;
+	outline: none;
+	box-shadow: 0 7px lightgray;
+	background-color: gray;
+	transition: 0.1s;
+	cursor: pointer;
+	margin-top: 0.25rem;
+	margin-bottom: 1rem;
+}
+
+.button:active {
+	background-color: lightgray;
+	box-shadow: 0 5px darkgray;
+	transform: translateY(1px);
+}
+
+.selected-button {
+	background-color: lightgray;
+	box-shadow: 0 3px darkgray;
+	transform: translateY(4px);
+}
