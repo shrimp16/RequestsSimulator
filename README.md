@@ -12,3 +12,5 @@
   <li>Have multiple tabs with different requests</li>
   <li>Way to share request info</li>
 </ul>
+
+<h2 align="center">Screenshots: </h2>
