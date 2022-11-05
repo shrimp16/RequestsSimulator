@@ -1,6 +1,7 @@
 <h1 align="center">Requests Simulator</h1>
 
 <p>Simple application that simulates http requests to try out APIs</p>
+<p>The application will be built using the framework Electron for JavaScript, which is a framework used to build desktop apps using web technologies such as HTML, CSS and JavaScript</p>
 
 <h2 align="center">Pretended: </h2>
 
